@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML input variation and forms</title>
+    <style>
+        div {
+            margin.bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--creating form-->
+    <!--method = send form as POST or GET request-->
+    <form action="a" method="GET">
+        <!-- input type text-->
+        <div>
+            <label for ="name">Name:</label>
+            <input
+            placeholder="hey write your name"
+            name="username"
+            type="text"
+            id="name"
+            required
+            />
+        </div>
+
+        <!--Input type number-->
+        <div>
+            <label>Phone:</label>
+            <input type="number" />
+            <input type="text" name="hiddentoken" hidden value="jidkgif"/>
+        </div>
+
+        <!--input type password-->
+        <div>
+            <label>Password</label>
+            <input type="password" />
+        </div>
+
+        <!--Input type url-->
+        <div>
+            <label>Facebook</label>
+            <input type = "password"/>
+        </div>
+
+        <!--Input type Data-->
+        <div>
+            <label> DOB:</label>
+            <input type="date" />
+        </div>
+
+        <!--input type textarc-->
+        <div>
+            <label>Detail message</label>
+            <textarea rows="5" cols="10"></textarea>
+        </div>
+
+        <!--input type radio-->
+        <div>
+            <label>Gender</label>
+            <input type = "radio" name = "gender" /><label> Male</label>
+            <input type = "radio" name = "gender" /><label>Female</label>
+        
+        </div>
+
+        <!--Input type file-->
+        <div>
+            <label>Attachment</label>
+            <input type ="file" accept="image/*" />
+        </div>
+
+        <!--input type email-->
+        <div>
+            <label> Email</label>
+            <input type="email" />
+        
+        </div>
+
+        <!--input type checkbox-->
+        <div>
+            <input type="checkbox">
+            <Label> Accept the terms and condition</Label>
+        </div>
+
+        <!--input type checkbox-->
+        <div>
+            <label>Budget</label>
+            <input type="range" min="1" value="50" />
+        </div>
+
+        <!--input type -->
+        <div>
+            <label> Favourite Subject</label>
+            <select name ="" id = "" multiple>
+                <option value ="" >-- select -- </option>
+                    <option value ="Maths" >Maths </option>
+                        <option value ="Science" >Science</option>
+                            <option value ="History" >Hisotry</option>
+
+
+
+            </select>
+        </div>
+
+        <!-- input type select with optgroup -->
+        <div>
+            <label>Choose a Dish</label>
+            <select name="" id="">
+                <optgroup label="Italian">
+                    <option>Margherita Pizza</option>
+                    <option>Spaghetti</option>
+                </optgroup>
+
+                <optgroup label="Mexican">
+                    <option>Chicken Tacos</option>
+                    <option>Tomato Salad</option>
+
+                </optgroup>
+
+            </select>
+        </div>
+
+        <!--input type select with datalist-->
+        <div>
+            <label  for="car">Choose a car</label>
+            <input type="text" name="" id="car" list="cars" />
+            <datalist id="cars">
+                
+            </datalist>
+
+
+
+        </div>
+
+        <div>
+            <button type="submit">submit</button>
+
+        </div>
+        </form>
+        
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
