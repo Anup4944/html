@@ -1,0 +1,43 @@
+p {
+    color : black
+}
+
+<link ref = "stylesheet" href ="style/style.css"
+
+user{
+    background : black;
+    color : green; 
+}
+
+.user-info {
+    font-size : 20px;
+}
+
+div p{
+    background : blue;
+    color : white;
+}
+
+/* child selector */
+
+div > p {
+    color : red;
+}
+
+/* adjacent selector */
+
+div + p{
+    background : aqua;
+
+}
+
+/* sibling selector */
+div ~ p{
+    font weight = bold; 
+
+}
+
+/* attribute selector */
+href
+    
+}

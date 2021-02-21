@@ -1,0 +1,198 @@
+nav{
+  
+    background-color: blue;
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+body{
+
+    margin:0; 
+     box-sizing: border-box;
+}
+
+.navbar{
+    font-size: 15px;
+    background: blue;
+    color: white;  
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: red;
+    font-size: 10px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    background: grey;
+    border-radius: 100%;
+    width: 50px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+li{
+    margin-right: 50px;
+}
+
+nav ul{
+    display: flex;
+
+}
+
+nav ul li{
+    margin-right:0.7
+}
+
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main{
+
+min-height: 80vh;
+
+}
+.main-page-content{
+    display: flex;
+    flex-direction: row;
+}
+.article-list-item{
+    display: flex;
+    flex-direction: row;
+    
+    
+
+}
+
+
+footer {
+    background: red;
+    color: white;
+    padding: 20px;
+    
+    
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnail{
+    margin-right: 20px;
+    margin-left: 15px;
+
+
+}
+.thumbnail img {
+    width: 100%;
+}
+
+
+article{
+    border: grey solid 1px;
+    margin-right: 0.5em;
+    padding: 0.7em;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.article-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.article-meta{
+    margin-bottom:1em;
+    position:relative;
+    left:1rem;
+    font-size: 10px;
+    
+}
+
+.article-content{
+    position: relative;
+    left:1rem;
+    font-size: 15px;
+    
+}
+
+
+
+
+aside{
+    background:yellowgreen;
+    width:94%;
+    height:350px;
+    padding: 20px;
+    display: flex;
+    
+
+}
+
+
+.article-read{
+    font-size: 10px;
+}
+
+.content-list{
+    display: flex;
+    flex-direction: row;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+/* media query */
+
+@media (max-width:  760px){
+    .main-page-content {
+        display: flex;
+        flex-direction: row;
+    }
+    aside{
+        background:yellowgreen;
+        width:60%;
+        height:350px;
+        padding: 20px;
+
+    }
+
+    .article-list-item{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
