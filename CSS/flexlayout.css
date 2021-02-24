@@ -20,6 +20,7 @@ body{
     font-size: 15px;
     background: blue;
     color: white;  
+    
 }
 
 ul{
@@ -160,6 +161,8 @@ aside{
     display: flex;
     flex-direction: row;
 }
+
+
 .main-content{
     display: flex;
     flex-direction: column;

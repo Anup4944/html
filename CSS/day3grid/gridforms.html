@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Grid System</title>
+    <style>
+
+        body{
+            margin:0;
+            box-sizing: border-box;
+            font-size: 30px;
+        }
+
+        .wrapper{
+            width:90%;
+            background: blue;
+            min-height: 600px;
+            margin: auto;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            margin-top: 20px;
+            display: grid;
+            gap: 30px;
+
+            
+            grid-template-areas:
+            "item1 item2 item3"
+            "item4 item5 item6"
+            "item7 item8 item9";
+            grid-template-columns:1fr , 2fr , 1fr ;
+            grid-template-rows: 1fr , 2fr , 3fr;
+
+        }
+
+        .wrapper > div{
+
+            background: green;
+            width: 80px;
+            height: 80px;
+            color: red;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item1{
+             grid-area: item1;
+        }
+        .item2{
+            grid-area: item2;
+        }
+        .item3{
+            grid-area: item3;
+        }
+        .item4{
+            grid-area: item4;
+        }
+        .item5{
+            grid-area: item5;
+        }
+        .item6{
+            grid-area: item6;
+        }
+        .item7{
+            grid-area: item7;
+        }
+        .item8{
+            grid-area: item8;
+        }
+        .item9{
+            grid-area: item9;
+        }
+
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
+        <div class="item8">8</div>
+        <div class="item9">9</div>
+    </div>
+    
+</body>
+</html>
